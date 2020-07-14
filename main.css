@@ -1,0 +1,129 @@
+.grid-main {
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;*/
+    display: grid;
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    grid-template-rows: 4em 1em;*/
+}
+
+.gl--right-nav {
+    grid-template-areas: 
+    "header header header"
+    "main main sidebar"
+    "footer footer footer";
+}
+
+.gl--left-nav {
+    grid-template-areas: 
+    "header header header"
+    "sidebar main main"
+    "footer footer footer";
+}
+
+.gl--right-nav > .nav-box {
+    justify-self: right;
+    padding: 0 0 0 1em;
+}
+
+.gl--left-nav > .nav-box {
+    justify-content: left;
+    padding: 0 1em 0 0em;
+}
+/*
+.grid > div {
+    background: #EDE7F6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+*/
+.grid-header {
+    grid-area:header;
+}
+
+.grid-header > img {
+    max-width:100%
+}
+
+.grid-body {
+    grid-area:main;
+}
+
+.grid-footer {
+    grid-area:footer;
+}
+
+.nav-box {
+    list-style: none;
+    margin: 0;
+    grid-area: sidebar;
+    margin: 0
+}
+
+.nav-box > li {
+    padding: 0.5em;
+    text-align: center;
+    max-width: 150px;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    border-style: solid;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.7);
+}
+
+.gray-box > li {
+    background: #94a5b7;
+    border: solid 3px #6d7e8d; 
+
+}
+
+.nav-selected {
+    background: #717a81 !important;
+    opacity: 0.6;
+}
+
+.nav-box > li > a {
+    color: #EDE7F6;
+    font-weight: bold;
+    text-decoration: none !important;
+    text-shadow: 0.5px 1px black;
+}
+
+.blue-box > li {
+    background: #1692c2;
+    border: solid 3px #0064a4; 
+}
+
+
+.green-box > li {
+    background: #1fcb98;
+    border: solid 3px #009c6c; 
+}
+
+.grid-table {
+    display: grid;
+   
+}
+
+.grid-3 {
+    grid-template-columns: auto auto auto;  
+}
+
+.grid-4 {
+    grid-template-columns: auto auto auto auto;  
+}
+
+.grid-table > div {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    align-self: center;
+}
+
+.grid-table > div img {
+    width: 100%;
+}
+
+.grid-table > div a img {
+    width: 100%;
+    height: auto;
+}
