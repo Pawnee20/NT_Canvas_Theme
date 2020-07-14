@@ -1,4 +1,4 @@
-# NT_Canvas_Theme
+# NT Canvas Theme
 
 - Updates
 - Installation
