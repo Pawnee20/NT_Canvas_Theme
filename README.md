@@ -11,4 +11,7 @@ The NT Canvas Theme is a set of CSS style rules that instructional designers and
 1.0 Initial Commit
 ## Installation
 ## Usage Guide
+### Navigation Layout
+### Message Boxes
+### Icon Grids
 ## Known Issues
