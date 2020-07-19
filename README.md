@@ -27,7 +27,7 @@ Please [follow this guide](https://community.canvaslms.com/docs/DOC-10862-421472
   </div>
   <div class="grid-body">
   </div>
-  </div>
+</div>
 ```
 #### Properties
 Navigation Layout
