@@ -78,5 +78,3 @@ Grid Item ```<div class="grid-table-item"></div>```
 Grid Length
 - *3x3 Grid* ```<div class="grid-table grid-3"></div>```
 - *4x4 Grid* ```<div class="grid-table grid-4"></div>```
-
-## Known Issues
