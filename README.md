@@ -45,6 +45,18 @@ Navigation Color
 - *Selected Navigation Item* 
 ```<li class="nav-selected"><a href="">...</a></li>```
 
+### Headers
+#### Example
+```
+<h1 class="hdr hdr-green">Header</h1>
+```
+#### Properties
+- *Blue Header*
+```<h1 class="hdr hdr-green">Header</h1>```
+- *Green Header*
+```<h1 class="hdr hdr-blue">Header</h1>```
+  
+
 ### Message Boxes
 #### Example
 ```
