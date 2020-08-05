@@ -14,7 +14,7 @@ Please [follow this guide](https://community.canvaslms.com/docs/DOC-10862-421472
 
 ## Usage Guide
 ### Navigation Layout
-
+![Image of Grid Layout](https://github.com/Pawnee20/NT_Canvas_Theme/blob/master/Documentation/Screenshots/grid_layout.png)
 #### Example
 ```
 <div class="grid-main gl--right-nav">
@@ -36,10 +36,17 @@ Navigation Layout
 ```<div class="grid-main gl--left-nav">```
 
 Navigation Color
-- *Blue Navigation Buttons*
+
+*Blue Navigation Buttons*
 ```<ul class="nav-box blue-box">```
-- *Green Navigation Buttons*
+
+![Blue Nav](https://github.com/Pawnee20/NT_Canvas_Theme/blob/master/Documentation/Screenshots/blue-nav.png)
+
+*Green Navigation Buttons*
 ```<ul class="nav-box green-box">```
+
+![Green Nav](https://github.com/Pawnee20/NT_Canvas_Theme/blob/master/Documentation/Screenshots/green-nav.png)
+
 
 *Navigation Links*
 - *Selected Navigation Item* 
@@ -51,14 +58,17 @@ Navigation Color
 <h1 class="hdr hdr-green">Header</h1>
 ```
 #### Properties
-- *Blue Header*
-```<h1 class="hdr hdr-green">Header</h1>```
-- *Green Header*
+*Blue Header*
 ```<h1 class="hdr hdr-blue">Header</h1>```
-  
+![Blue Nav](https://github.com/Pawnee20/NT_Canvas_Theme/blob/master/Documentation/Screenshots/h_series-blue.png)
 
+*Green Header*
+```<h1 class="hdr hdr-green">Header</h1>```
+![Green Nav](https://github.com/Pawnee20/NT_Canvas_Theme/blob/master/Documentation/Screenshots/h_series-green.png)
+  
 ### Message Boxes
 #### Example
+![No Drop Cap](https://github.com/Pawnee20/NT_Canvas_Theme/blob/master/Documentation/Screenshots/no_drop.png)
 ```
 <div class="msg-box msg-info">
   <img class="icon" src="..." />
@@ -69,6 +79,7 @@ Navigation Color
 - *Icon Resizing*
 ```<img class="icon" src="..." />```
 - *Drop-cap*
+![Drop Cap](https://github.com/Pawnee20/NT_Canvas_Theme/blob/master/Documentation/Screenshots/notifications-dropcap.png)
 ```<p class="body drop-cap">```
 
 ### Icon Grids
@@ -88,4 +99,7 @@ Grid Item ```<div class="grid-table-item"></div>```
 
 Grid Length
 - *3x3 Grid* ```<div class="grid-table grid-3"></div>```
+![3 Grid](https://github.com/Pawnee20/NT_Canvas_Theme/blob/master/Documentation/Screenshots/3x3_grid.png)
 - *4x4 Grid* ```<div class="grid-table grid-4"></div>```
+![4 Grid](https://github.com/Pawnee20/NT_Canvas_Theme/blob/master/Documentation/Screenshots/4x4_grid.png)
+
