@@ -7,6 +7,7 @@ The NT Canvas Theme is a set of CSS style rules that instructional designers and
 - <a href="https://github.com/Pawnee20/NT_Canvas_Theme/blob/master/README.md#usage-guide">Usage Guide</a>
 
 ## Updates
+2.0 Updated Header Class, New Alert/Notification Class. New mobile specific rules. Bugfixes.
 1.0 Initial Commit
 ## Installation
 
@@ -51,6 +52,14 @@ Navigation Color
 *Navigation Links*
 - *Selected Navigation Item* 
 ```<li class="nav-selected"><a href="">...</a></li>```
+
+*Header Dimming and Text*
+```
+<div class="grid-header hdr-image">
+<img src="header.jpg" />
+<h1>This is part of the banner</h1>
+</div>
+```
 
 ### Headers
 #### Example
@@ -103,3 +112,34 @@ Grid Length
 - *4x4 Grid* ```<div class="grid-table grid-4"></div>```
 ![4 Grid](https://github.com/Pawnee20/NT_Canvas_Theme/blob/master/Documentation/Screenshots/4x4_grid.png)
 
+### Notifications/Alerts
+#### Example
+```
+<div class=".c-alert .c-alert-blue">Header</div>
+```
+#### Properties
+Grid Colors
+```
+<div class=".c-alert .c-alert-blue">Alert or Notification</div>
+```
+```
+<div class=".c-alert .c-alert-green">Alert or Notification</div>
+```
+```
+<div class=".c-alert .c-alert-gray">Alert or Notification</div>
+```
+Inverted Colors
+```
+<div class=".c-alert .c-alert-blue-invert">Alert or Notification</div>
+```
+```
+<div class=".c-alert .c-alert-green-invert">Alert or Notification</div>
+```
+```
+<div class=".c-alert .c-alert-gray-invert">Alert or Notification</div>
+```
+### Misc Classes
+Text-Wrap Pictures
+```
+<img class="text-wrap" src="..." />
+```
