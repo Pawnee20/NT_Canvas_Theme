@@ -8,6 +8,7 @@ The NT Canvas Theme is a set of CSS style rules that instructional designers and
 
 ## Updates
 2.0 Updated Header Class, New Alert/Notification Class. New mobile specific rules. Bugfixes.
+
 1.0 Initial Commit
 ## Installation
 
@@ -118,7 +119,7 @@ Grid Length
 <div class=".c-alert .c-alert-blue">Header</div>
 ```
 #### Properties
-Grid Colors
+Colors
 ```
 <div class=".c-alert .c-alert-blue">Alert or Notification</div>
 ```
