@@ -116,28 +116,28 @@ Grid Length
 ### Notifications/Alerts
 #### Example
 ```
-<div class=".c-alert .c-alert-blue">Header</div>
+<div class="c-alert c-alert-blue">Header</div>
 ```
 #### Properties
 Colors
 ```
-<div class=".c-alert .c-alert-blue">Alert or Notification</div>
+<div class="c-alert c-alert-blue">Alert or Notification</div>
 ```
 ```
-<div class=".c-alert .c-alert-green">Alert or Notification</div>
+<div class="c-alert c-alert-green">Alert or Notification</div>
 ```
 ```
-<div class=".c-alert .c-alert-gray">Alert or Notification</div>
+<div class="c-alert c-alert-gray">Alert or Notification</div>
 ```
 Inverted Colors
 ```
-<div class=".c-alert .c-alert-blue-invert">Alert or Notification</div>
+<div class="c-alert c-alert-blue-invert">Alert or Notification</div>
 ```
 ```
-<div class=".c-alert .c-alert-green-invert">Alert or Notification</div>
+<div class="c-alert c-alert-green-invert">Alert or Notification</div>
 ```
 ```
-<div class=".c-alert .c-alert-gray-invert">Alert or Notification</div>
+<div class="c-alert c-alert-gray-invert">Alert or Notification</div>
 ```
 ### Misc Classes
 Text-Wrap Pictures
